@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<LogicalDesign class="oracle.dbtools.crest.model.design.logical.LogicalDesign" name="Logical" id="DBF566FE-E688-A3E7-DB35-526ABA478B40" mainViewID="5DF9AB85-8D54-C2F1-9C42-1D90587FE7C7">
+<createdBy>Moonlabpc</createdBy>
+<createdTime>2026-01-08 16:16:26 UTC</createdTime>
+<ownerDesignName>trabajo base de datos</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+</LogicalDesign>

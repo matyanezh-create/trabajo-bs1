@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<ProcessModel class="oracle.dbtools.crest.model.design.process.ProcessModel" name="Process Model" id="1F59C859-5E32-1D47-F67A-F4C0978DFC30">
+<createdBy>Moonlabpc</createdBy>
+<createdTime>2026-01-08 16:16:26 UTC</createdTime>
+<ownerDesignName>trabajo base de datos</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+</ProcessModel>

@@ -1,0 +1,139 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="4E9FFC18-56FA-A0FB-5DBE-D6304E3ADB4E" name="EMPLEADO">
+<createdBy>Moonlabpc</createdBy>
+<createdTime>2026-01-08 16:28:15 UTC</createdTime>
+<ownerDesignName>trabajo bs1</ownerDesignName>
+<engineerTo>
+<item key="22AF92BB-FA9B-69DD-24E9-987CCDD37B65" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="rut" id="1435E02F-C69F-BA08-34A1-065EB908B1C1">
+<createdBy>Moonlabpc</createdBy>
+<createdTime>2026-01-08 17:39:19 UTC</createdTime>
+<ownerDesignName>trabajo bs1</ownerDesignName>
+<engineerTo>
+<item key="22AF92BB-FA9B-69DD-24E9-987CCDD37B65" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>12 CHAR</dataTypeSize>
+<ownDataTypeParameters>12 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nombre_completo" id="080BE7B9-8CCE-08E6-7109-67EF6407A399">
+<createdBy>Moonlabpc</createdBy>
+<createdTime>2026-01-08 17:39:19 UTC</createdTime>
+<ownerDesignName>trabajo bs1</ownerDesignName>
+<engineerTo>
+<item key="22AF92BB-FA9B-69DD-24E9-987CCDD37B65" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 CHAR</dataTypeSize>
+<ownDataTypeParameters>100 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="direccion" id="DD7F9932-2510-BA10-F9FD-BDC25FAC6D7D">
+<createdBy>Moonlabpc</createdBy>
+<createdTime>2026-01-08 17:39:20 UTC</createdTime>
+<ownerDesignName>trabajo bs1</ownerDesignName>
+<engineerTo>
+<item key="22AF92BB-FA9B-69DD-24E9-987CCDD37B65" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>200 CHAR</dataTypeSize>
+<ownDataTypeParameters>200 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="sueldo_base" id="9A2EC7AA-8527-64FF-2B7F-6F6661352118">
+<createdBy>Moonlabpc</createdBy>
+<createdTime>2026-01-08 17:39:20 UTC</createdTime>
+<ownerDesignName>trabajo bs1</ownerDesignName>
+<engineerTo>
+<item key="22AF92BB-FA9B-69DD-24E9-987CCDD37B65" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>12</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,12,2</ownDataTypeParameters>
+</Attribute>
+<Attribute name="fecha_ingreso" id="7EF25F8F-185A-5271-8F90-5D6D216CAC9C">
+<createdBy>Moonlabpc</createdBy>
+<createdTime>2026-01-08 17:39:21 UTC</createdTime>
+<ownerDesignName>trabajo bs1</ownerDesignName>
+<engineerTo>
+<item key="22AF92BB-FA9B-69DD-24E9-987CCDD37B65" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="genero" id="34317811-23F8-E479-53AD-5598ECE8188C">
+<createdBy>Moonlabpc</createdBy>
+<createdTime>2026-01-08 17:39:46 UTC</createdTime>
+<ownerDesignName>trabajo bs1</ownerDesignName>
+<engineerTo>
+<item key="22AF92BB-FA9B-69DD-24E9-987CCDD37B65" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10 CHAR</dataTypeSize>
+<ownDataTypeParameters>10 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="telefono_movil" id="C4409B0F-1C4C-BDA3-5722-1A7BBDCCA7BC">
+<createdBy>Moonlabpc</createdBy>
+<createdTime>2026-01-08 17:39:46 UTC</createdTime>
+<ownerDesignName>trabajo bs1</ownerDesignName>
+<engineerTo>
+<item key="22AF92BB-FA9B-69DD-24E9-987CCDD37B65" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 CHAR</dataTypeSize>
+<ownDataTypeParameters>20 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="telefono_contacto" id="D07A4F31-E876-BDE8-75EB-66418B953E98">
+<createdBy>Moonlabpc</createdBy>
+<createdTime>2026-01-08 17:39:47 UTC</createdTime>
+<ownerDesignName>trabajo bs1</ownerDesignName>
+<engineerTo>
+<item key="22AF92BB-FA9B-69DD-24E9-987CCDD37B65" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 CHAR</dataTypeSize>
+<ownDataTypeParameters>20 CHAR,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="24026555-B536-B251-D0DF-C380E5ECDBB4" name="EMPLEADO PK">
+<createdBy>Moonlabpc</createdBy>
+<createdTime>2026-01-08 17:40:52 UTC</createdTime>
+<ownerDesignName>trabajo bs1</ownerDesignName>
+<engineerTo>
+<item key="22AF92BB-FA9B-69DD-24E9-987CCDD37B65" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>1435E02F-C69F-BA08-34A1-065EB908B1C1</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>
