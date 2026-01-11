@@ -1,8 +1,0 @@
-<?xml version = '1.0' encoding = 'UTF-8'?>
-<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="trabajo bs1" id="D3E0CD6E-74A3-F799-4C08-68D1548B61E1" version="3.5">
-<createdBy>Moonlabpc</createdBy>
-<createdTime>2026-01-08 16:16:26 UTC</createdTime>
-<ownerDesignName>trabajo base de datos</ownerDesignName>
-<capitalNames>false</capitalNames>
-<designId>D3E0CD6E-74A3-F799-4C08-68D1548B61E1</designId>
-</OSDM_Design>
